@@ -14,7 +14,7 @@ PID::PID(double* input,double* output,double* setpoint,double kp,double ki,doubl
     _Kp = kp;
     _Kd = kd;
     _Ki = ki;
-};
+}
 bool PID::Initialize()
 {
    //_prev_time = Time;
